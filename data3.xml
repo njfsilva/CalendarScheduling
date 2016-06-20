@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dados>
+    <provas>
+        <prova id="prova1">
+            <estudante ref="9999999"/>
+            <presidente ref="pessoa4"/>
+            <orientador ref="pessoa3"/>
+            <arguente ref="pessoa2"/>
+            <duracao>02h00</duracao>
+        </prova>
+        <prova id="prova2">
+            <estudante ref="9999998"/>
+            <presidente ref="pessoa4"/>
+            <orientador ref="pessoa3"/>
+            <arguente ref="pessoa2"/>
+            <arguente ref="pessoa1"/>
+            <duracao>02h00</duracao>
+        </prova>
+        <prova id="prova3">
+            <estudante ref="9999997"/>
+            <presidente ref="pessoa4"/>
+            <arguente ref="pessoa3"/>
+            <orientador ref="pessoa2"/>
+            <coorientador ref="pessoa1"/>
+            <duracao>02h00</duracao>
+        </prova>
+    </provas>
+    <recursos>
+        <estudante id="9999999" nome="nome9" email="9999999@isep.ipp.pt"/>
+        <estudante id="9999998" nome="nome8" email="9999998@isep.ipp.pt"/>
+        <estudante id="9999997" nome="nome7" email="9999997@isep.ipp.pt"/>
+        <pessoa id="pessoa1" nome="nome1" email="nome1@isep.ipp.pt">
+            <disponibilidade>
+                <data>2016-10-10</data>
+                <periodo inicio="08:30:00" fim="12:30:00"/>
+                <periodo inicio="18:00:00" fim="21:30:00"/>
+            </disponibilidade>
+            <disponibilidade>
+                <datainicio>2016-10-11</datainicio>
+                <datafim>2016-10-15</datafim>
+                <periodo inicio="08:30:00" fim="12:30:00"/>
+                <periodo inicio="18:00:00" fim="21:30:00"/>
+            </disponibilidade>
+        </pessoa>
+        <pessoa id="pessoa2" nome="nome2" email="nome2@isep.ipp.pt">
+            <disponibilidade>
+                <data>2016-10-10</data>
+                <periodo inicio="11:30:00" fim="13:30:00"/>
+            </disponibilidade>
+            <disponibilidade>
+                <datainicio>2016-10-11</datainicio>
+                <datafim>2016-10-14</datafim>
+                <periodo inicio="08:30:00" fim="23:30:00"/>
+            </disponibilidade>
+            <disponibilidade>
+                <datainicio>2016-10-17</datainicio>
+                <datafim>2016-10-21</datafim>
+                <periodo inicio="08:30:00" fim="13:00:00"/>
+                <periodo inicio="15:00:00" fim="22:00:00"/>
+            </disponibilidade>
+        </pessoa>
+        <pessoa id="pessoa3" nome="nome3" email="nome3@outlook.pt">
+            <disponibilidade>
+                <data>2016-10-10</data>
+                <periodo inicio="11:30:00" fim="13:30:00"/>
+            </disponibilidade>
+            <disponibilidade>
+                <datainicio>2016-10-13</datainicio>
+                <datafim>2016-10-14</datafim>
+                <periodo inicio="08:30:00" fim="23:30:00"/>
+            </disponibilidade>
+        </pessoa>
+        <pessoa id="pessoa4" nome="nome4" email="nome4@gmail.com">
+            <disponibilidade>
+                <data>2016-10-10</data>
+                <periodo inicio="10:30:00" fim="12:30:00"/>
+                <periodo inicio="16:00:00" fim="23:30:00"/>
+            </disponibilidade>
+            <disponibilidade>
+                <datainicio>2016-10-12</datainicio>
+                <datafim>2016-10-13</datafim>
+                <periodo inicio="08:30:00" fim="12:30:00"/>
+                <periodo inicio="18:00:00" fim="21:30:00"/>
+            </disponibilidade>
+        </pessoa>
+        <sala id="B401">
+            <disponibilidade>
+                <data>2016-10-10</data>
+                <periodo inicio="08:00:00" fim="18:00:00"/>
+            </disponibilidade>
+            <disponibilidade>
+                <data>2016-10-11</data>
+                <periodo inicio="08:00:00" fim="12:00:00"/>
+                <periodo inicio="14:00:00" fim="20:40:00"/>
+            </disponibilidade>
+        </sala>
+        <sala id="B201">
+            <disponibilidade>
+                <data>2016-10-10</data>
+                <periodo inicio="10:00:00" fim="16:00:00"/>
+                <periodo inicio="21:40:00" fim="23:40:00"/>
+            </disponibilidade>
+            <disponibilidade>
+                <data>2016-10-12</data>
+                <periodo inicio="08:00:00" fim="19:00:00"/>
+                <periodo inicio="21:40:00" fim="23:40:00"/>
+            </disponibilidade>
+        </sala>
+    </recursos>
+</dados>

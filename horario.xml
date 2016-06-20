@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Schedules>
+  <Schedule>
+    <Sala>B201</Sala>
+    <DataInicio>2016-10-10T18:00</DataInicio>
+    <DataFim>2016-10-10T20:00</DataFim>
+    <Estudante Ïd="9999998">nome8</Estudante>
+    <Presidente Id="pessoa2">nome2</Presidente>
+    <Orientador Id="pessoa4">nome4</Orientador>
+    <Arguente Id="pessoa3">nome3</Arguente>
+  </Schedule>
+  <Schedule>
+    <Sala>B201</Sala>
+    <DataInicio>2016-10-10T11:30</DataInicio>
+    <DataFim>2016-10-10T13:30</DataFim>
+    <Estudante Ïd="9999999">nome9</Estudante>
+    <Presidente Id="pessoa4">nome4</Presidente>
+    <Orientador Id="pessoa3">nome3</Orientador>
+    <Arguente Id="pessoa2">nome2</Arguente>
+  </Schedule>
+  <Schedule>
+    <Sala>B201</Sala>
+    <DataInicio>2016-10-10T11:30</DataInicio>
+    <DataFim>2016-10-10T13:30</DataFim>
+    <Estudante Ïd="9999998">nome8</Estudante>
+    <Presidente Id="pessoa4">nome4</Presidente>
+    <Orientador Id="pessoa3">nome3</Orientador>
+    <Arguente Id="pessoa1">nome1</Arguente>
+  </Schedule>
+  <Schedule>
+    <Sala>B201</Sala>
+    <DataInicio>2016-10-10T11:30</DataInicio>
+    <DataFim>2016-10-10T13:30</DataFim>
+    <Estudante Ïd="9999997">nome7</Estudante>
+    <Presidente Id="pessoa4">nome4</Presidente>
+    <Orientador Id="pessoa2">nome2</Orientador>
+    <CoOrientador Id="pessoa1">nome1</CoOrientador>
+    <Arguente Id="pessoa3">nome3</Arguente>
+  </Schedule>
+  <Schedule>
+    <Sala>B201</Sala>
+    <DataInicio>2016-10-10T18:00</DataInicio>
+    <DataFim>2016-10-10T20:00</DataFim>
+    <Estudante Ïd="9999998">nome8</Estudante>
+    <Presidente Id="pessoa2">nome2</Presidente>
+    <Orientador Id="pessoa4">nome4</Orientador>
+    <Arguente Id="pessoa3">nome3</Arguente>
+  </Schedule>
+  <Schedule>
+    <Sala>B201</Sala>
+    <DataInicio>2016-10-10T08:30</DataInicio>
+    <DataFim>2016-10-10T10:30</DataFim>
+    <Estudante Ïd="9999997">nome7</Estudante>
+    <Presidente Id="pessoa1">nome1</Presidente>
+    <Orientador Id="pessoa2">nome2</Orientador>
+    <CoOrientador Id="pessoa4">nome4</CoOrientador>
+    <Arguente Id="pessoa3">nome3</Arguente>
+  </Schedule>
+  <Schedule>
+    <Sala>B201</Sala>
+    <DataInicio>2016-10-10T18:00</DataInicio>
+    <DataFim>2016-10-10T20:00</DataFim>
+    <Estudante Ïd="9999999">nome9</Estudante>
+    <Presidente Id="pessoa1">nome1</Presidente>
+    <Orientador Id="pessoa4">nome4</Orientador>
+    <Arguente Id="pessoa2">nome2</Arguente>
+  </Schedule>
+  <Schedule>
+    <Sala>B201</Sala>
+    <DataInicio>2016-10-10T18:00</DataInicio>
+    <DataFim>2016-10-10T20:00</DataFim>
+    <Estudante Ïd="9999999">nome9</Estudante>
+    <Presidente Id="pessoa1">nome1</Presidente>
+    <Orientador Id="pessoa4">nome4</Orientador>
+    <Arguente Id="pessoa2">nome2</Arguente>
+  </Schedule>
+  
+</Schedules>
